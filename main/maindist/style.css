@@ -1,0 +1,227 @@
+* {
+  font-family: "Noto Sans TC";
+  letter-spacing: 2px;
+}
+
+body, html {
+  height: 800px;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 400;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+  background-color: #F2C078;
+}
+nav.navbar.navbar-default.navbar-fixed-top a {
+  font-family: "M PLUS Rounded 1c";
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: white;
+}
+nav.navbar.navbar-default.navbar-fixed-top a:hover {
+  color: #eb6200;
+}
+nav.navbar.navbar-default.navbar-fixed-top a.navbar-brand {
+  font-size: 20px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: #f5b376;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  font-family: "M PLUS Rounded 1c";
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: white;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #eb6200;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a.navbar-brand {
+  font-size: 20px;
+}
+
+header#header {
+  text-align: center;
+  background-image: url("https://res.cloudinary.com/fishwheel/image/upload/v1662382100/%E5%B0%88%E9%A1%8C%E5%9C%96%E7%89%87/%E5%B0%81%E9%9D%A2%E3%80%81%E9%95%B7%E6%A2%9D%E5%9C%96%E3%80%81%E9%85%8D%E5%9C%96/%E4%B8%8B%E8%BC%89_at9or8.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  margin-bottom: 0px;
+}
+header#header .container {
+  padding: 220px 0px;
+}
+header#header .title {
+  margin: 0px 150px;
+  padding: 20px 0px;
+  background-color: rgba(242, 238, 230, 0.9);
+  font-family: "M PLUS Rounded 1c";
+}
+header#header .title h1 {
+  font-size: 60px;
+}
+header#header hr {
+  max-width: 50px;
+  border: solid 2px #fcc142;
+  background-color: #fcc142;
+}
+header#header h4 {
+  font-family: "Noto Sans TC";
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 350;
+}
+
+section {
+  padding: 50px 0px;
+}
+section .text.main p {
+  font-family: "M PLUS Rounded 1c";
+}
+
+section#section_intro {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 16px;
+  background-color: #f2eee6;
+}
+section#section_intro p {
+  margin: 40px;
+}
+section#section_intro .col-md-6.left, section#section_intro .col-md-6.right {
+  padding: 15px;
+  line-height: 45px;
+}
+section#section_intro .col-md-6.left {
+  padding: 15px 40px;
+}
+section#section_intro .col-md-6.left .text.rbig {
+  font-size: 28px;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+section#section_intro .col-md-6.left hr {
+  background-color: #fcc142;
+  border: solid 2px #fcc142;
+  margin-left: 40px;
+  transform-origin: left;
+}
+section#section_intro .col-md-6.left .text.lsmall {
+  font-size: 13px;
+  line-height: 20px;
+}
+section#section_intro .col-md-6.right {
+  font-size: 20px;
+}
+
+section#section_restaurant {
+  background-color: #f2eee6;
+  text-align: center;
+}
+section#section_restaurant .main p {
+  color: black;
+  font-size: 60px;
+}
+section#section_restaurant hr {
+  max-width: 2px;
+  height: 80px;
+  margin: 0px auto;
+  background-color: #fcc142;
+  border: solid 1px #fcc142;
+}
+section#section_restaurant p {
+  font-size: 20px;
+}
+section#section_restaurant img {
+  width: 50%;
+  height: auto;
+}
+section#section_restaurant .row {
+  padding: 5px 170px;
+}
+section#section_restaurant .img_wrap {
+  height: 140px;
+  padding: 30px;
+}
+section#section_restaurant .col-md-4.res .space {
+  padding: 7px;
+  border: solid 1px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+section#section_restaurant .col-md-4.res .space:hover {
+  margin-top: -40px;
+  margin-left: -10px;
+  margin-right: 10px;
+  box-shadow: 25px 20px #f5b376;
+}
+section#section_restaurant .col-md-12.res {
+  padding: 5px 5px;
+}
+section#section_restaurant .res {
+  padding: 20px 30px;
+}
+
+section#section_study {
+  background-color: #f2eee6;
+  text-align: center;
+}
+section#section_study .main {
+  color: black;
+  font-size: 60px;
+}
+section#section_study hr.ver {
+  max-width: 2px;
+  height: 80px;
+  margin: 0px auto;
+  background-color: #fcc142;
+  border: solid 1px #fcc142;
+}
+section#section_study hr.horizen {
+  border-bottom: solid 5px #fcc142;
+  max-width: 150px;
+}
+section#section_study .col-md-12 {
+  padding: 0px 100px;
+}
+section#section_study .col-md-12 .title {
+  font-size: 35px;
+}
+section#section_study .up {
+  text-align: left;
+  line-height: 70px;
+}
+section#section_study .up p {
+  font-size: 18px;
+  line-height: 50px;
+}
+section#section_study .under {
+  text-align: right;
+  line-height: 70px;
+}
+section#section_study .under p {
+  font-size: 18px;
+  line-height: 50px;
+}
+
+footer.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  background-color: #d9B79a;
+}
+
+@media screen and (max-width: 900px) {
+  header.jumbotron .container {
+    padding: 100px 0px;
+  }
+}
